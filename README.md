@@ -48,6 +48,12 @@ cd ApexGear--ERP-AI-Restock-Assistant
 npm install
 ```
 
+> If you encounter a dependency resolution error during installation, try:
+>
+> ```bash
+> npm install --legacy-peer-deps
+> ```
+
 Create a `.env` file:
 
 ```env
@@ -61,5 +67,4 @@ npm run dev
 ```
 
 > **Note:** Never commit your `.env` file or API keys to GitHub.
-
 
