@@ -1,20 +1,77 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ApexGear ERP — AI Restock Assistant
 
-# Run and deploy your AI Studio app
+ApexGear ERP is an **AI-powered inventory management system for heavy-equipment spare parts**. It helps monitor stock levels, identify low-stock parts, and generate intelligent restocking recommendations.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/a8026c5c-63eb-407a-bcb7-16bd562ca253
+- 📦 Inventory management
+- 📊 Stock and reorder monitoring
+- 🤖 AI-powered inventory audit using Google Gemini
+- 🔄 Rule-based fallback when AI is unavailable
+- 🏷️ Barcode-based inventory operations
+- 🛒 Restocking recommendations
+- 📄 Purchase-order assistance
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS
+- **Backend:** Node.js, Express
+- **AI:** Google Gemini API
+- **Storage:** LocalStorage
 
+## 🔄 Workflow
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+Inventory
+    ↓
+Stock Analysis
+    ↓
+AI Inventory Audit
+    ↓
+Restock Recommendation
+    ↓
+Procurement
+```
+
+## ⚙️ Run Locally
+
+### Prerequisites
+
+- Node.js
+- Gemini API Key
+
+### Installation
+
+```bash
+git clone https://github.com/Veer564/ApexGear--ERP-AI-Restock-Assistant.git
+cd ApexGear--ERP-AI-Restock-Assistant
+npm install
+```
+
+Create a `.env` file:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Then start the application:
+
+```bash
+npm run dev
+```
+
+> **Note:** Never commit your `.env` file or API keys to GitHub.
+
+## 🔮 Future Scope
+
+- Database integration
+- User authentication
+- Multi-warehouse management
+- Demand forecasting
+- Predictive maintenance
+- Supplier and purchase-order management
+
+## 👨‍💻 Author
+
+**Veer Gokani**  
+B.Tech Information Technology
