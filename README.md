@@ -62,16 +62,4 @@ npm run dev
 
 > **Note:** Never commit your `.env` file or API keys to GitHub.
 
-## 🔮 Future Scope
 
-- Database integration
-- User authentication
-- Multi-warehouse management
-- Demand forecasting
-- Predictive maintenance
-- Supplier and purchase-order management
-
-## 👨‍💻 Author
-
-**Veer Gokani**  
-B.Tech Information Technology
